@@ -17,4 +17,12 @@ This project showcases my threat hunting capabilities using Splunk, where I anal
 
 <br />
 <br />
+
+<p align="center">
+  Check images to see the processes involved:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/825fa099-aa35-4509-83cf-995e1a7e1d7b" height="80%" width="80%"/>
+
+
+<br />
+<br />
    
