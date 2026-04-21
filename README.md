@@ -85,8 +85,8 @@ This project showcases my threat hunting capabilities using Splunk, where I anal
 <br />
 
 <p align="center">
- We can use EventCode ID 3 'index="sysmonsplunklab" Preventivo24.02.14.exe.exe EventCode=3' to search for the source IP address of the Malware:<br/>
-<img alt="image" src="https://github.com/user-attachments/assets/ea2309f0-2436-4005-8b48-cdb5469de3a9" height="80%" width="80%"/>
+ We can as well see the IP address that the malicious process tried to reach out to:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/62bc24ad-6218-411d-b3ab-bbb7ac1dd50a" height="80%" width="80%"/>
 
 
 <br />
