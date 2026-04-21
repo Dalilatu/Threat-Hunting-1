@@ -19,10 +19,27 @@ This project showcases my threat hunting capabilities using Splunk, where I anal
 <br />
 
 <p align="center">
-  Check images to see the processes involved:<br/>
+  Check images to see the processes involved and scan them using VirusTotal:<br/>
 <img alt="image" src="https://github.com/user-attachments/assets/825fa099-aa35-4509-83cf-995e1a7e1d7b" height="80%" width="80%"/>
 
 
 <br />
 <br />
+
+<p align="center">
+  One of the files called "Prevetivo24.02.1.exe" was flagged malicious by the vendors:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/fcaff838-b328-4ca9-923d-1fbf8582df35" height="80%" width="80%"/>
+
+
+<br />
+<br />
    
+<b>Step 2: Analyse the malicious file</b><br/>
+
+<p align="center">
+  One of the files called "Prevetivo24.02.1.exe" was flagged malicious by the vendors:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/fcaff838-b328-4ca9-923d-1fbf8582df35" height="80%" width="80%"/>
+
+
+<br />
+<br />
