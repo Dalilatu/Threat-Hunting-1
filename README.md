@@ -69,7 +69,31 @@ This project showcases my threat hunting capabilities using Splunk, where I anal
 <br />
 
 <p align="center">
+ We can then use 'index="sysmonsplunklab" EventCode=22 preventio24' to see which domain the malicious file attempted to connect to:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/2e4375ed-f738-4197-b049-fa7e5c236e81" height="80%" width="80%"/>
+
+
+<br />
+<br />
+
+<p align="center">
  We can use EventCode ID 3 to search for the source IP address of the Malware:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/ea2309f0-2436-4005-8b48-cdb5469de3a9" height="80%" width="80%"/>
+
+
+<br />
+<br />
+
+<p align="center">
+ We can use EventCode ID 3 'index="sysmonsplunklab" Preventivo24.02.14.exe.exe EventCode=3' to search for the source IP address of the Malware:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/ea2309f0-2436-4005-8b48-cdb5469de3a9" height="80%" width="80%"/>
+
+
+<br />
+<br />
+
+<p align="center">
+ We can use EventCode ID 3 'index="sysmonsplunklab" Preventivo24.02.14.exe.exe EventCode=3' to search for the source IP address of the Malware:<br/>
 <img alt="image" src="https://github.com/user-attachments/assets/ea2309f0-2436-4005-8b48-cdb5469de3a9" height="80%" width="80%"/>
 
 
