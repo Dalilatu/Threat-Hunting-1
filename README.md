@@ -37,8 +37,40 @@ This project showcases my threat hunting capabilities using Splunk, where I anal
 <b>Step 2: Analyse the malicious file</b><br/>
 
 <p align="center">
-  One of the files called "Prevetivo24.02.1.exe" was flagged malicious by the vendors:<br/>
-<img alt="image" src="https://github.com/user-attachments/assets/fcaff838-b328-4ca9-923d-1fbf8582df35" height="80%" width="80%"/>
+ Investigate on VirusTotal by going to COMMUNITY. There i found "Dropbox Malware" which is likely the cloud drive used to distribute the malware:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/be905964-b00e-47de-b139-be58aef95cfc" height="80%" width="80%"/>
+
+
+<br />
+<br />
+
+<p align="center">
+ We can also use Splunk by pivoting on the name of the malware and the FileCreate Event ID 11. As seen, there are 9 events:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/42ebee3d-defe-42d2-951c-b5fb18258935" height="80%" width="80%"/>
+
+
+<br />
+<br />
+
+<p align="center">
+ We can now pivot to the surrounding events of the first event by clicking on the time and select +/- 5 seconds. This gives us all the events that occured before and after the time the file was written to disk:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/ed8398b1-e42a-416a-ad04-8a619df31db1" height="80%" width="80%"/>
+
+
+<br />
+<br />
+
+<p align="center">
+ All events that occured 5 seconds before and after the file was created on the disk. We have 7 events in total:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/947ae6e5-cda9-4532-868d-99255c74878e" height="80%" width="80%"/>
+
+
+<br />
+<br />
+
+<p align="center">
+ We can use EventCode ID 3 to search for the source IP address of the Malware:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/ea2309f0-2436-4005-8b48-cdb5469de3a9" height="80%" width="80%"/>
 
 
 <br />
