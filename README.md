@@ -93,9 +93,13 @@ This project showcases my threat hunting capabilities using Splunk, where I anal
 <br />
 
 <p align="center">
- We can use EventCode ID 3 'index="sysmonsplunklab" Preventivo24.02.14.exe.exe EventCode=3' to search for the source IP address of the Malware:<br/>
-<img alt="image" src="https://github.com/user-attachments/assets/ea2309f0-2436-4005-8b48-cdb5469de3a9" height="80%" width="80%"/>
+ We can use EventCode ID 5 to see the time the malicious file terminated itself after infecting the PC:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/1a332418-5d74-49d3-bd8b-b7b5ae0157fa" height="80%" width="80%"/>
 
 
 <br />
 <br />
+
+## Conclusion
+
+This exercise demonstrates how Sysmon logs provide detailed visibility into system activity, making it easier to detect suspicious behavior and investigate security incidents.
