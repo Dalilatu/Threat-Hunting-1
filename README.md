@@ -1,7 +1,7 @@
 # Threat-Hunting-1
 
 ## Log analysis and Threat Hunting using Splunk
-This lab will demonstrate how i conducted a threat hunt using splunk. <br/>
+This lab will demonstrate how i conducted a threat hunt using splunk <br/>
 <br/>
 This project showcases my threat hunting capabilities using Splunk, where I analyzed logs to detect and investigate patterns associated with malicious activity. It highlights my ability to identify suspicious behaviors, correlate events, and derive meaningful insights from log data to support effective security monitoring and incident investigation. <br/>
 
